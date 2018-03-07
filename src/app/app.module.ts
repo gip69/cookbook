@@ -3,10 +3,16 @@ import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header.component';
+import { RecipeComponent } from './recipe/recipe.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    RecipeComponent,
+    ShoppingListComponent
   ],
   imports: [
     BrowserModule,
